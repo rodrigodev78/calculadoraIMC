@@ -23,8 +23,60 @@ body{
     border: 2px solid #02B3BD;
     border-radius: 15px;
     box-shadow: 6px 6px 10px #02B3BD;
+    font-size: 25px;
 }
 
 h1{
-    font-size: 46px;
+    font-size: 42px;
+}
+
+.container_altura,
+.container_peso{
+    display: flex;
+    flex-direction: column;
+}
+
+.sexo{
+    margin-bottom: -5px;
+}
+
+.container_sexo{
+    margin: 12px 0px 12px 0px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: #413F48;
+    border-radius: 6px;
+    background-color: #413F48;
+    padding: 8px;
+    margin: 8px 0px 8px 0px;
+}
+
+.container_sexo label{
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+#sexM,
+#sexF{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.container_botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    background-color: #02B3BD;
+    color: #FFF;
+    margin: 26px;
+    padding: 8px 15px;
+    cursor: pointer;
 }
