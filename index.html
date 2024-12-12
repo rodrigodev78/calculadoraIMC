@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice IMC</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Calculadora de IMC</h1>
+
+            <form>
+
+                <div class="container_altura">
+                    <label for="altura">Altura:</label>
+                    <input type="number" id="altura" name="altura" required>
+                </div>
+
+                <div class="container_peso">
+                    <label for="peso">Peso:</label>
+                    <input type="number" id="peso" name="peso" required>
+                </div>
+
+                <div class="container_sexo">
+                    <p>Sexo:</p>
+
+                    <input type="radio" id="sexM" name="sexo" value="Masculino" required>
+                    <label for="sexM">Masculino</label>
+
+                    <input type="radio" id="sexF" name="sexo" value="Feminino" required>
+                    <label for="sexF">Feminino</label>
+                </div>
+
+                <div class="container_botao">
+                    <button type="reset">limpar</button>
+                    <button type="button">Calcular</button>
+                </div>
+                
+            </form>
+
+            <a href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal">Mais informações sobre o IMC</a>
+
+        </div>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
