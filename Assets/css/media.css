@@ -1,0 +1,39 @@
+@media (max-width: 500px){
+    .container{
+        width: 320px;
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #altura,
+    #peso{
+        width: 290px;
+        padding: 8px 12px;
+        margin: 15px 0;
+    }
+    
+    .botao_limpar,
+    .botao_calcular{
+        width: 120px;
+    }
+
+    .container_resultado{
+        height: 110px;
+    }
+
+    .resultado_esquerdo{
+        font-size: 16px;
+        margin-left: 0px;
+        width: 65%;
+    }
+
+    .resultado_direito{
+        width: 35%;
+        font-size: 60px;
+    }
+}
